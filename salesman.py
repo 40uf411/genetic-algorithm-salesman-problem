@@ -167,20 +167,3 @@ for i in range(0, 25):
     cityList.append(City(x=int(random.random() * 200), y=int(random.random() * 200)))
 
 geneticAlgorithm(population=cityList, popSize=100, elitSize=20, mutationRate=0.01,generations=500)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
