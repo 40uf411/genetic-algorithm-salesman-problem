@@ -16,7 +16,7 @@ class City:
         yDis = abs(self.y - city.y)
         return np.sqrt((xDis ** 2) + (yDis ** 2))
 
-    def __repr__(self):syna
+    def __repr__(self):
         return "(" + str(self.x) + "," + str(self.y) + ")"
 
 
